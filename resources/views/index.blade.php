@@ -13,7 +13,7 @@
 
 <body>
     <div class="container mt-5">
-        <form method="POST" action="/adicionar">
+        <form method="POST" action="/create">
             @csrf
             <div class="form-group mb-2">
                 <label for="exampleInputEmail1">Email</label>
